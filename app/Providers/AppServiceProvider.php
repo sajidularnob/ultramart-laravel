@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 
 namespace App\Providers;
 
@@ -88,4 +88,4 @@ class AppServiceProvider extends ServiceProvider
         $gtm_code = GoogleTagManager::where('status',1)->get();
         view()->share('gtm_code',$gtm_code);
     }
-} -->
+}
