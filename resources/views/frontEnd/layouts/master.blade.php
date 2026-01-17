@@ -359,7 +359,7 @@
                 </li>
 
                 <li>
-                    <a href="https://wa.me/8801740015800">
+                    <a href="https://wa.me/8801533827706">
                         <span>
                             <i class="fa-solid fa-message"></i>
                         </span>

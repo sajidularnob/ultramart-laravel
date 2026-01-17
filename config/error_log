@@ -2,3 +2,7 @@
 Stack trace:
 #0 {main}
   thrown in /home/ibajarco/public_html/config/database.php on line 18
+[31-Dec-2025 20:30:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/gadgetsh/shop.gadgetshant.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gadgetsh/shop.gadgetshant.com/config/database.php on line 18

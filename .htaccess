@@ -21,11 +21,13 @@
     
   RewriteCond %{HTTP_HOST} ^www.gomobd.com [NC]
   RewriteRule ^(.*)$ https://gomobd.com/$1 [L,R=301]
-
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^\.]+)$ $1.php [NC,L]
   
   RewriteCond %{HTTP_HOST} ^gomobd.com [NC]
   RewriteRule ^(.*)$ https://gomobd.com/$1 [L,R=301]
-  
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^\.]+)$ $1.php [NC,L]
   
   
 </IfModule>

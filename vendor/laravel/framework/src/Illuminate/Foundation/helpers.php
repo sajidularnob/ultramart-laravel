@@ -35,7 +35,7 @@ if (! function_exists('abort')) {
      * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
      */
     function abort($code, $message = '', array $headers = [])
-    {   
+    {
         if ($code instanceof Response) {
             throw new HttpResponseException($code);
         } elseif ($code instanceof Responsable) {
